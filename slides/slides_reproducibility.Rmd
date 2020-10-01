@@ -83,7 +83,7 @@ How far do you go towards reproducibility?
   - What packages/libraries do you load
   - What OS do you use? (Does it work on your collaborator's system?)
 
-- This information should be in the requirements file of your project.
+- This information should be in a dedicated file (e.g. `requirements.txt`, or `environment.yml`) of your project.
 
 #### Getting accurate version information:
 
