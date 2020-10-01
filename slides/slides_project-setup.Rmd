@@ -433,4 +433,6 @@ and don't forget to commit!)
 
 - A book with [all the ins and outs of git](https://www.git-scm.com/book/en/v2) from the git website
 
+- [Happy Git with R](https://happygitwithr.com/) for RStudio users
+
 ![atlassian](images/atlassian/bubblediag.svg)
