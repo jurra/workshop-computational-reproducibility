@@ -200,6 +200,7 @@ dmypy.json
 
 # R additional
 .Rproj.user
+.Rbuildignore
 
 # Mac specific
 .DS_Store
