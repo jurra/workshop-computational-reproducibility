@@ -9,6 +9,8 @@ We do this by teaching you a few good programming habits: how to set up a good p
 We will furthermore introduce you to Git and GitHub, which are essential tools in managing and publishing code.
 Reproducibility requires extra effort, but we will focus on teaching you skills that will save you much more time in the long run than they cost to implement.
 
+We are currently re-designing this repository, and have moved the state of the course on 21/02/2021 to the storage branch. 
+
 ## Preparation
 
 If you are attending this workshop, you can prepare a few things so we can hit the ground running!
