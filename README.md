@@ -1,3 +1,9 @@
+# General information 
+  This repository contains the information related to a train-the-trainer session running in Delft University of Technology on the 24th and 25th of June. 
+  We merely adjusted the content of the workshop proposed by Barbara Vreede, from the University of Utrecht. Many thanks to her and her team for this material. 
+  
+  
+
 # Best Practices for Writing Reproducible Code
 
 _If you are looking at a GitHub README, please note that the slides are best viewed [via GitHub pages](https://utrechtuniversity.github.io/workshop-computational-reproducibility/)._
@@ -23,26 +29,44 @@ We have [more details on this page](preparations).
 
 | Time  | Activity |
 |-------:|----------|
-| 9:00 | Welcome & introduction ([slides](slides/slides_introduction.html))| 
-| 9:30 | [Project setup & version control with git](exercises/project-setup.md) |
-| 10:45 | Questions & discussion |
-| _11:00_ | _Break_ |
-| 11:15 | [Code quality](exercises/code-quality.md)  |
-| 12:45 | Questions & discussion |
-| _13:00_ | _End_ |
+| 12:00 | Last minute setup/environment fix for those who didn't manage to install everything.| 
+| 13:00 | Welcome & introduction ([slides](slides/slides_introduction.html))| 
+| 13:15 | Questions on: [Project setup & version control with git](exercises/project-setup.md) |
+| 13:30 | Excerice on Project setup |
+| 13:45 | Questions on Version control with Git |
+| 14:00 | Exercice on version control|
+| 14:15 | Questions on Publication and Licensing |
+| 14:30 | Break! |
+| 14:45 | Answering questions on Code Readability |
+| 14:55 | Exercice on Readability |
+| 15:15 | Answering questions on Reusability | 
+| 15:25 | Exercice on Readability |
+| 15:45 | Break! |
+| 16.00 | Answering qustions on Robustness |
+| 16.15 | Demonstration: Robustness |
+| 16.35 | Q&A - General discussion|
+| _16:45_ | _End_ |
 
 
 ### Day 2
 
 | Time  | Activity |
 |-------:|----------|
-| 9:00 | Code quality discussion | 
-| 9:15 | [Documentation](exercises/documentation.md)  |
-| 10:45 | Questions & discussion |
-| _11:00_ | _Break_ |
-| 11:15 | [Accessibility & reproducibility](exercises/reproducibility.md)  |
-| 12:15 | [Reproduction of projects](slides/slides_reproducibility.html#18) |
-| _13:00_ | _End_ |
+| 13:00 | Day 1 review, and Q&A Time | 
+| 13:10 | Answering questions on Comments and Docstring |
+| 13:25 | Exercice on comments/docstrings |
+| 13:45 | Answering questions on README |
+| 13.55 | Exercice README |
+| 14.15 | Break!|
+| 14:30 | Answering questions about dependencies |
+| 14:45 | Exercice on Dependencies |
+| 15:00 | Answering questions on Binder |
+| 15:15 | Answering questions on Video Archiving|
+| 15:30 | Break! |
+| 15.45 | Big final exercice| 
+| 16.30 | Q&A - discussion |
+| _17.00_ | _End_ |
+
 
 
 ## External resources, recommended reading, and developer inspiration
