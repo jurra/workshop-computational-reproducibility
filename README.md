@@ -57,11 +57,11 @@ Note on the breakout rooms - we will decide the
 | 13:10 | Answering questions on Comments and Docstring ([link](exercises/documentation.md#12-exercise)) (Eirini)|
 | 13:25 | Exercice on comments/docstrings (Eirini - Nicolas)|
 | 13:45 | Answering questions on README ([link](exercises/documentation.md#22-exercise)) (Eirini)|
-| 13.55 | Exercice README |
+| 13.55 | Exercice README (Eirini - ) |
 | 14.15 | Break!|
 | 14:30 | Answering questions about dependencies ([link](exercises/documentation.md#12-exercise)) (Heather)|
-| 14:45 | Exercice on Dependencies |
-| 15:00 | Answering questions on Binder ([link](exercises/reproducibility.md#12-exercise)) (Eirii)|
+| 14:45 | Exercice on Dependencies (Heather - Nicolas)|
+| 15:00 | Answering questions on Binder ([link](exercises/reproducibility.md#12-exercise)) (Eirini)|
 | 15:15 | Answering questions on Video Archiving ([link](exercises/reproducibility.md#12-exercise)) (Santosh)|
 | 15:30 | Break! |
 | 15.45 | Big final exercice  ([link](slides/slides_reproducibility.md#18))| 
