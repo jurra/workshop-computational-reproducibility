@@ -18,6 +18,8 @@ Instead, as you install Git (see below), you can get the Git Bash terminal with 
 If you have no experience with the terminal at all, we recommend practising with it for some basic folder navigation to start.
 [This 8.5 minute video](https://www.youtube.com/watch?v=j6vKLJxAKfw) is a good introduction.
 
+Alternatively, you can have a look at the Software Carpentry lesson on [Unix Shell](http://swcarpentry.github.io/swc-releases/2015.08/shell-novice/)
+
 ### Installation
 - **Git**
   - Check if you have git by typing in a terminal: `git`. If you get a lot of options, you are good to go; you can stop reading. If you get an error message, you will need to install it. Here is how to do that.
