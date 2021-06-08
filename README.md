@@ -25,25 +25,26 @@ We have [more details on this page](preparations).
 
 ## Schedule
 
+Note on the breakout rooms - we will decide the 
 ### Day 1
 
 | Time  | Activity |
 |-------:|----------|
 | 12:00 | Last minute setup/environment fix for those who didn't manage to install everything.| 
-| 13:00 | Welcome & introduction ([slides](slides/slides_introduction.html))| 
-| 13:15 | Questions on: Project setup & version control with git ([link](exercises/project-setup.md)) |
-| 13:30 | Excerice on Project setup |
+| 13:00 | Welcome & introduction ([slides](slides/slides_introduction.html)) (Connie)| 
+| 13:15 | Questions on: Project setup & version control with git ([link](exercises/project-setup.md)) (Heather)|
+| 13:30 | Excerice on Project setup (Heather - Eirini)|
 | 13:45 | Questions on Version control with Git ([link](exercises/project-setup.md#2))|
-| 14:00 | Exercice on version control|
-| 14:15 | Questions on Publication and Licensing ([link](exercises/project-setup.md#3))|
+| 14:00 | Exercice on version control (Heather - Nicolas)|
+| 14:15 | Questions on Publication and Licensing ([link](exercises/project-setup.md#3)) (Santosh)|
 | 14:30 | Break! |
-| 14:45 | Answering questions on Code Readability ([link](exercises/code-quality.md#1)) |
-| 14:55 | Exercice on Readability |
-| 15:15 | Answering questions on Reusability ([link](exercises/code-quality.md#2-exercise)) | 
-| 15:25 | Exercice on Readability |
+| 14:45 | Answering questions on Code Readability ([link](exercises/code-quality.md#1)) (Nicolas) |
+| 14:55 | Exercice on Readability (Nicolas - ) |
+| 15:15 | Answering questions on Reusability ([link](exercises/code-quality.md#2-exercise)) (Nicolas)| 
+| 15:25 | Exercice on Readability (Nicolas - )|
 | 15:45 | Break! |
-| 16.00 | Answering qustions on Robustness ([link](exercises/code-quality.md#3-exercise))|
-| 16.15 | Demonstration: Robustness |
+| 16.00 | Answering qustions on Robustness ([link](exercises/code-quality.md#3-exercise)) (Nicolas)|
+| 16.15 | Demonstration: Robustness (Nicolas - )|
 | 16.35 | Q&A - General discussion|
 | _16:45_ | _End_ |
 
@@ -53,15 +54,15 @@ We have [more details on this page](preparations).
 | Time  | Activity |
 |-------:|----------|
 | 13:00 | Day 1 review, and Q&A Time | 
-| 13:10 | Answering questions on Comments and Docstring ([link](exercises/documentation.md#12-exercise))|
-| 13:25 | Exercice on comments/docstrings |
-| 13:45 | Answering questions on README ([link](exercises/documentation.md#22-exercise))|
+| 13:10 | Answering questions on Comments and Docstring ([link](exercises/documentation.md#12-exercise)) (Eirini)|
+| 13:25 | Exercice on comments/docstrings (Eirini - Nicolas)|
+| 13:45 | Answering questions on README ([link](exercises/documentation.md#22-exercise)) (Eirini)|
 | 13.55 | Exercice README |
 | 14.15 | Break!|
-| 14:30 | Answering questions about dependencies ([link](exercises/documentation.md#12-exercise))|
+| 14:30 | Answering questions about dependencies ([link](exercises/documentation.md#12-exercise)) (Heather)|
 | 14:45 | Exercice on Dependencies |
-| 15:00 | Answering questions on Binder ([link](exercises/reproducibility.md#12-exercise))|
-| 15:15 | Answering questions on Video Archiving ([link](exercises/reproducibility.md#12-exercise))|
+| 15:00 | Answering questions on Binder ([link](exercises/reproducibility.md#12-exercise)) (Eirii)|
+| 15:15 | Answering questions on Video Archiving ([link](exercises/reproducibility.md#12-exercise)) (Santosh)|
 | 15:30 | Break! |
 | 15.45 | Big final exercice  ([link](slides/slides_reproducibility.md#18))| 
 | 16.30 | Q&A - discussion |
