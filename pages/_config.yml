@@ -1,19 +1,24 @@
 # in _config.yml
-title: "A template in jupyter books to prepare and run workshops"
+title: "Best Practices for Writing Reproducible Code"
 logo: images/logo.png
-author: TU Delft DCC
+author: 
 execute:
   execute_notebooks: "off"
 
 only_build_toc_files: true
 
-exclude_patterns: [LICENSE.md]
+exclude_patterns: [./LICENSE.md]
 
 # Information about where the book exists on the web
 repository:
   url  : https://github.com/NZR/workshop-computational-reproducibility
 
-
+parse:
+  myst_enable_extensions:
+    # don't forget to list any other extensions you want enabled,
+    # including those that are enabled by default!
+    - html_image
+    - html_admonition
 
 sphinx:
     config:

@@ -236,13 +236,253 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
             <section class="normal" id="section-">
 <div id="header">
 <h1 class="title">Best Practices in Reproducible Coding</h1>
-<p class="author"><em>RDM Support, Utrecht University</em></p>
-<p class="date"><em>2021-02-21</em></p>
+<!-- <p class="author"><em>RDM Support, Utrecht University</em></p> -->
+<!-- <p class="date"><em>2021-02-21</em></p> -->
 </div>
 <div id="course-information" class="section level1" number="1">
 <h1><span class="header-section-number">Chapter 1</span> Course Information</h1>
 <p>Welcome to the course on Best Practices in Writing Reproducible Code!</p>
 <p>Ensuring your research is reproducible can be a difficult task. Scripting your analysis is a start, but this in and of itself is no guarantee that you, or someone else, can faithfully repeat your work at a later stage. In this workshop, we will help you not only to make your work reproducible, but also to increase the efficiency of your workflow. We do this by teaching you a few good programming habits: how to set up a good project structure, how to code and comment well, and how to document your code so that it can be used by others. We will furthermore introduce you to Git and GitHub, which are essential tools in managing and publishing code. Reproducibility requires extra effort, but we will focus on teaching you skills that will save you much more time in the long run than they cost to implement….</p>
+
+
+    
+
+          
+<!-- <div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+  <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+
+<img src="_static/logo.png" class="logo" alt="logo">
+
+
+<h1 class="site-logo" id="site-title">Best Practices for Writing Reproducible Code</h1>
+
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+<i class="icon fas fa-search"></i>
+<input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+<div class="bd-toc-item active">
+  <ul class="nav bd-sidenav">
+<li class="toctree-l1 current"> -->
+
+
+</div>
+
+
+    
+
+
+
+  
+
+      <!-- Full screen (wrap in <a> to have style consistency -->
+
+
+
+
+
+<div id="main-content" class="row">
+  <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+  
+        <div>
+          
+<div class="section" id="about-this-workshop">
+<h1>About this workshop<a class="headerlink" href="#about-this-workshop" title="Permalink to this headline">¶</a></h1>
+<p>This repository contains the information related to a train-the-trainer session running in Delft University of Technology on the 24th and 25th of June.</p>
+<p>We merely adjusted the content of the workshop proposed by Barbara Vreede, from the University of Utrecht. Many thanks to her and her team for this material.</p>
+<p><em>If you are looking at a GitHub README, please note that the slides are best viewed <a class="reference external" href="https://nzr.github.io/workshop-computational-reproducibility">via GitHub pages</a>.</em></p>
+<p><em>A gitbook is under development as well: [check it out]https://nzr.github.io/workshop-computational-reproducibility/docs/index.html)!</em></p>
+<p>Ensuring your research is reproducible can be a difficult task.
+Scripting your analysis is a start, but this in and of itself is no guarantee that you, or someone else, can faithfully repeat your work at a later stage.
+In this workshop, we will help you not only to make your work reproducible, but also to increase the efficiency of your workflow.
+We do this by teaching you a few good programming habits: how to set up a good project structure, how to code and comment well, and how to document your code so that it can be used by others.
+We will furthermore introduce you to Git and GitHub, which are essential tools in managing and publishing code.
+Reproducibility requires extra effort, but we will focus on teaching you skills that will save you much more time in the long run than they cost to implement.</p>
+<div class="section" id="preparation">
+<h2>Preparation<a class="headerlink" href="#preparation" title="Permalink to this headline">¶</a></h2>
+<p>If you are attending this workshop, you can prepare a few things so we can hit the ground running!
+We have <span class="xref myst">more details on this page</span>.</p>
+</div>
+<div class="section" id="schedule">
+<h2>Schedule<a class="headerlink" href="#schedule" title="Permalink to this headline">¶</a></h2>
+<p>Note on the breakout rooms - we will decide the composition of the group based on your choice of code to bring (or borrow from our teachers).</p>
+<div class="section" id="day-1">
+<h3>Day 1<a class="headerlink" href="#day-1" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:right head"><p>Time</p></th>
+<th class="head"><p>Activity</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:right"><p>12:00</p></td>
+<td><p>Last minute setup/environment fix for those who didn’t manage to install everything.</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>13:00</p></td>
+<td><p>Welcome &amp; introduction (<span class="xref myst">slides</span>) (Connie)</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>13:15</p></td>
+<td><p>Questions on: Project setup (<span class="xref myst">link</span>) (Heather)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>13:30</p></td>
+<td><p>(breakout) Excerise on Project setup (Heather - Eirini)</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>13:45</p></td>
+<td><p>Questions on Version control with Git (<a class="reference external" href="exercises/project-setup.md#2">link</a>)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>14:00</p></td>
+<td><p>(breakout) Exercise on version control (Heather - Nicolas)</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>14:15</p></td>
+<td><p>Questions on Publication and Licensing (<a class="reference external" href="exercises/project-setup.md#3">link</a>) (Santosh)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>14:30</p></td>
+<td><p>Break!</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>14:45</p></td>
+<td><p>Answering questions on Code Readability (<a class="reference external" href="exercises/code-quality.md#1">link</a>) (Nicolas)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>14:55</p></td>
+<td><p>(breakout) Exercise on Readability (Nicolas - )</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>15:15</p></td>
+<td><p>Answering questions on Reusability (<a class="reference external" href="exercises/code-quality.md#2-exercise">link</a>) (Nicolas)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>15:25</p></td>
+<td><p>(breakout) Exercise on Readability (Nicolas - )</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>15:45</p></td>
+<td><p>Break!</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>16.00</p></td>
+<td><p>Answering qustions on Robustness (<a class="reference external" href="exercises/code-quality.md#3-exercise">link</a>) (Nicolas)</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>16.15</p></td>
+<td><p>Demonstration: Robustness (Nicolas - )</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>16.35</p></td>
+<td><p>Q&amp;A - General discussion</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p><em>16:45</em></p></td>
+<td><p><em>End</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="day-2">
+<h3>Day 2<a class="headerlink" href="#day-2" title="Permalink to this headline">¶</a></h3>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="text-align:right head"><p>Time</p></th>
+<th class="head"><p>Activity</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td class="text-align:right"><p>13:00</p></td>
+<td><p>Day 1 review, and Q&amp;A Time</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>13:10</p></td>
+<td><p>Answering questions on Comments and Docstring (<a class="reference external" href="exercises/documentation.md#12-exercise">link</a>) (Eirini)</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>13:25</p></td>
+<td><p>(breakout) Exercise on comments/docstrings (Eirini - Nicolas)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>13:45</p></td>
+<td><p>Answering questions on README (<a class="reference external" href="exercises/documentation.md#22-exercise">link</a>) (Eirini)</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>13.55</p></td>
+<td><p>(breakout)  Exercise README (Eirini - )</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>14.15</p></td>
+<td><p>Break!</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>14:30</p></td>
+<td><p>Answering questions about dependencies (<a class="reference external" href="exercises/documentation.md#12-exercise">link</a>) (Heather)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>14:45</p></td>
+<td><p>(breakout) Exercise on Dependencies (Heather - Nicolas)</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>15:00</p></td>
+<td><p>Answering questions on Binder (<a class="reference external" href="exercises/reproducibility.md#12-exercise">link</a>) (Eirini)</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>15:15</p></td>
+<td><p>Answering questions on Video Archiving (<a class="reference external" href="exercises/reproducibility.md#12-exercise">link</a>) (Santosh)</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>15:30</p></td>
+<td><p>Break!</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p>15.45</p></td>
+<td><p>Big final exercise  (<a class="reference external" href="slides/slides_reproducibility.md#18">link</a>)</p></td>
+</tr>
+<tr class="row-even"><td class="text-align:right"><p>16.30</p></td>
+<td><p>Q&amp;A - discussion</p></td>
+</tr>
+<tr class="row-odd"><td class="text-align:right"><p><em>17.00</em></p></td>
+<td><p><em>End</em></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="external-resources-recommended-reading-and-developer-inspiration">
+<h2>External resources, recommended reading, and developer inspiration<a class="headerlink" href="#external-resources-recommended-reading-and-developer-inspiration" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://guide.esciencecenter.nl/">Software Development Guide by the Netherlands eScience Center</a></p></li>
+<li><p><a class="reference external" href="https://the-turing-way.netlify.app/welcome">The Turing Way: a guide to reproducible data science by the Turing Institute</a></p></li>
+<li><p><a class="reference external" href="https://github.com/swcarpentry/swcarpentry">Software Carpentry lessons</a></p></li>
+<li><p><a class="reference external" href="https://www.git-scm.com/book/en/v2">Pro GIT</a></p></li>
+<li><p><a class="reference external" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510">Good Enough Practices in Scientific Computing</a></p></li>
+</ul>
+</div>
+<div class="section" id="course-materials-for-reference-these-are-also-linked-in-the-schedule-above">
+<h2>Course materials (for reference, these are also linked in the schedule above!)<a class="headerlink" href="#course-materials-for-reference-these-are-also-linked-in-the-schedule-above" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="slides">
+<h3>Slides<a class="headerlink" href="#slides" title="Permalink to this headline">¶</a></h3>
+<ol class="simple">
+<li><p><span class="xref myst">Introduction</span></p></li>
+<li><p><span class="xref myst">Project setup and version control</span></p></li>
+<li><p><span class="xref myst">Code quality</span></p></li>
+<li><p><span class="xref myst">Project documentation</span></p></li>
+<li><p><span class="xref myst">Accessibility &amp; Reproducibility</span></p></li>
+</ol>
+</div>
+<div class="section" id="exercises">
+<h3>Exercises<a class="headerlink" href="#exercises" title="Permalink to this headline">¶</a></h3>
+<ol class="simple">
+<li><p><span class="xref myst">Project setup &amp; version control with git</span></p></li>
+<li><p><span class="xref myst">Code quality</span></p></li>
+<li><p><span class="xref myst">Project documentation</span></p></li>
+<li><p><span class="xref myst">Accessibility &amp; reproducibility</span></p></li>
+</ol>
+</div>
+</div>
+<div class="section" id="license">
+<h2>License<a class="headerlink" href="#license" title="Permalink to this headline">¶</a></h2>
+<p>All workshop material is licensed under a <a class="reference external" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <a class="reference external" href="https://github.com/UtrechtUniversity/workshop-computational-reproducibility/blob/master/LICENSE.md">View the license here</a>.</p>
+</div>
+<div class="section" id="history-and-acknowledgements">
+<h2>History and acknowledgements<a class="headerlink" href="#history-and-acknowledgements" title="Permalink to this headline">¶</a></h2>
+<p>This course was developed at Utrecht University, supported by the <a class="reference external" href="https://openscience-utrecht.com">Open Science Community Utrecht (OSCU)</a> and <a class="reference external" href="https://www.uu.nl/en/research/research-data-management">Research Data Management (RDM) support</a>.</p>
+<p>Workshop development is being coordinated by <a class="reference external" href="https://github.com/nehamoopen">Neha Moopen</a>, and the course received contributions from (in alphabetical order):
+<a class="reference external" href="https://github.com/armell">Armel Lefebvre</a>
+| <a class="reference external" href="https://github.com/bvreede">Barbara Vreede</a>
+| <a class="reference external" href="https://github.com/bmkramer">Bianca Kramer</a>
+| <a class="reference external" href="https://github.com/cedrict">Cedric Thieulot</a>
+| <a class="reference external" href="https://github.com/erikvansebille">Erik van Sebille</a>
+| <a class="reference external" href="https://github.com/JeroenBosman">Jeroen Bosman</a>
+| <a class="reference external" href="https://github.com/jeroen">Jeroen Ooms</a>
+| <a class="reference external" href="https://github.com/J535D165">Jonathan de Bruin</a>
+| <a class="reference external" href="https://github.com/hooiberg">Lukas van de Wiel</a>
+| <a class="reference external" href="https://twitter.com/matkuzak">Mateusz Kuzak</a>
+| <a class="reference external" href="https://github.com/MFraters">Menno Fraters</a>
+| <a class="reference external" href="https://github.com/delandmeterp">Philippe Delandmeter</a>
+| <a class="reference external" href="https://github.com/unode">Renato Alves</a></p>
+</div>
+</div>
+</div>
+
 
 </div>
             </section>
