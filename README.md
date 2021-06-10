@@ -32,7 +32,7 @@ Note on the breakout rooms - we will decide the composition of the group based o
 |-------:|----------|
 | 12:00 | Last minute setup/environment fix for those who didn't manage to install everything.| 
 | 13:00 | Welcome & introduction ([slides](slides/slides_introduction.html)) (Connie)| 
-| 13:15 | Questions on: Project setup & version control with git ([link](exercises/project-setup.md)) (Heather)|
+| 13:15 | Questions on: Project setup ([link](exercises/project-setup.md)) (Heather)|
 | 13:30 | (breakout) Excerise on Project setup (Heather - Eirini)|
 | 13:45 | Questions on Version control with Git ([link](exercises/project-setup.md#2))|
 | 14:00 | (breakout) Exercise on version control (Heather - Nicolas)|
