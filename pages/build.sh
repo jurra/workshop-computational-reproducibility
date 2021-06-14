@@ -17,3 +17,6 @@ if test -f "_build"; then
 fi
 # Build html
 jupyter-book build ${REPO}
+
+# Copy slides inside _build/html
+cp -R ../slides ./_build/html
