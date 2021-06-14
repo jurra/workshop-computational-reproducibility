@@ -1,8 +1,6 @@
 # DAY 1
-<iframe style="width:100%"src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials"></iframe>
 
-
-<iframe src="../../../../slides/slides_introduction.html" width="672" height="400px">
+<iframe src="../../../../slides/slides_introduction.html" width="100%" height="400px">
 </iframe>
 
 ## Learning goals
